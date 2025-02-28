@@ -17,7 +17,7 @@ O Desenvolvimento deve ser feito com PHP puro, sem uso de frameworks.
 
 Explicação sobre a Resolução
 
-- Nesse desafio foram feitos os designs conforme os layouts fornecidos.
+- Nesse desafio foram feitos os designs conforme os layouts fornecidos e foram criadas configurações para melhor visualização no mobile.
 - A estrutura das pastas segue o padrão MVC.
 - Para o banco de dados foi utilizado o PostgreSQL. Para utilizar é necessário liberar a extensão no php.ini (pgsql).
 - A criação de um serviço para o controle de funções do database foi uma escolha pessoal, tenho a ciência de que poderia ter sido feita completamente na model.
