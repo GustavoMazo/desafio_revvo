@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Document</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="public/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div id="modal-sub" class="modal-sub">
+            <div class="modal-sub-content">
+                <img src="public/images/banner-promocional.png" alt="Imagem do Modal">
+                <h2>Bem-vindo ao nosso site!</h2>
+                <p>Aproveite nossos cursos incríveis e aprenda com os melhores.</p>
+                <button id="close-modal">Inscreva-se!</button>
+            </div>
+        </div>
+
+        <header>
+            <div class="logo">
+                <img src="public/images/logo-leo.jpg" alt="Logo da Empresa">
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar cursos...">
+            </div>
+            <div class="user-info">
+                <img src="public/images/foto-perfil.jpg" alt="Foto do Usuário">
+                <p>Jhon Doe</p>
+            </div>
+        </header>
+
+        <div id="carrossel">
+            <div class="slides">
+                <div class="slide active">
+                    <img src="public/images/banner1.webp" alt="Banner 1">
+                    <div class="text-box">
+                        <h2>LOREM IPSUM 1</h2><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#"><button class="btn-box">Ver Curso</button></a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="public/images/banner2.webp" alt="Banner 2">
+                    <div class="text-box">
+                        <h2>LOREM IPSUM 2</h2><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <button class="btn-box">Ver Curso</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="public/images/banner3.jpg" alt="Banner 3">
+                    <div class="text-box">
+                        <h2>LOREM IPSUM 3</h2><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="btn-box">Ver Curso</button>
+                    </div>
+                </div>
+            </div>
+        
+            <button id="prev" class="nav-btn">❮</button>
+            <button id="next" class="nav-btn">❯</button>
+        </div>
+        
+        <div class="titulo-cards">
+            <div class="titulo-wrapper">
+                <h1>MEUS CURSOS</h1>
+            </div>
+            
+        </div>
+
+        <div id="container"></div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Adicionar Curso</h2>
+                <input type="text" id="titulo" placeholder="Título do Curso">
+                <input type="text" id="descricao" placeholder="Descrição">
+                <input type="text" id="imagem" placeholder="URL da Imagem">
+                <input type="text" id="link" placeholder="URL do Curso">
+                <button onclick="salvarCurso()">Salvar</button>
+                <button onclick="fecharModal()">Cancelar</button>
+            </div>
+        </div>
+
+        <footer>
+            <div id="contato">
+                <div id="logo-footer">
+                    <img src="public/images/logo-leo.jpg" alt="Logo da Empresa">
+                    <div><p>Lorem ipsum dolor sit amet. Est labore fuga et nemo tempore 33 eveniet internos.</p></div>
+                </div>
+                <div id="footer-center"></div>
+                <div id="email">
+                    <h3>// CONTATO</h3>
+                    <p>(21) 98765-3434</p>
+                    <p>contato@leolearning.com</p>
+                </div>
+                <div id="redes">
+                    <h3>// REDES SOCIAIS</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>Copyright 2017 - All right reserved</p>
+            </div>
+        </footer>
+
+        <script src="public/js/script.js"></script>
+    </body>
+</html>
