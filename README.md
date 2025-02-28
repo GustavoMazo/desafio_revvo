@@ -28,5 +28,5 @@ Explicação sobre a Resolução
 - Nesse desafio foram feitos os designs conforme os layouts fornecidos.
 - A estrutura das pastas segue o padrão MVC.
 - Para o banco de dados foi utilizado o PostgreSQL. Para utilizar é necessário liberar a extensão no php.ini (pgsql).
-- Foram utilizados dois dias para o desenvolvimento do projeto, logo, não foi dada a devida atenção para alguns detalhes, como: verificação de cursos duplicados, espaçamentos específicos do layout, criação de um sistema de rotas e criação de um .env para a proteção de dados sensíveis.
+- Foram utilizados dois dias para o desenvolvimento do projeto, logo, não foi dada a devida atenção para alguns detalhes, como: verificação de cursos duplicados, espaçamentos específicos do layout, criação de um sistema de rotas, criação de um .env para a proteção de dados sensíveis e commit de todas as etapas do desenvolvimento.
 - A criação de um serviço para o controle de funções do database foi uma escolha pessoal, tenho a ciência de que poderia ter sido feita completamente na model.
